@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,22 +7,22 @@
 /* shared styles */
 
 .font-open-sans {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 
 }
 
-.logo h2{
+.logo h2 {
     font-size: 45px;
-    
+
 }
 
-.color-orange{
+.color-orange {
     color: #FD6E0A;
     font-weight: 900px;
 }
 
-.btn{
+.btn {
     background-color: #FD6E0A;
     border: none;
     padding: 18px 35px;
@@ -35,17 +35,17 @@
 }
 
 
-.section-heading{
+.section-heading {
     max-width: 827px;
     text-align: center;
 }
 
-.section-heading h2{
+.section-heading h2 {
     font-size: 35px;
     margin-bottom: 30px;
 }
-    
-.section-heading p{
+
+.section-heading p {
     font-size: 18px;
     margin-bottom: 30px;
     line-height: 30px;
@@ -63,7 +63,7 @@ header {
 
 }
 
-nav{
+nav {
     width: 71%;
     max-width: 1140px;
     /* border: 1px solid red; */
@@ -72,7 +72,7 @@ nav{
     justify-content: space-between;
 }
 
-nav .menu{
+nav .menu {
     display: flex;
     list-style: none;
     gap: 51px;
@@ -86,7 +86,7 @@ nav .menu a {
     text-decoration: none;
 }
 
-#banner{
+#banner {
     /* border: 1px solid red; */
     margin: 47px 38px 0px 230px;
     display: flex;
@@ -98,38 +98,38 @@ nav .menu a {
     max-width: 585px;
 }
 
-#banner .banner-content h2{
+#banner .banner-content h2 {
     font-size: 45px;
     font-weight: 600;
     color: #474747;
     margin-bottom: 5px;
 }
 
-#banner .banner-content h1{
+#banner .banner-content h1 {
     font-size: 85px;
     font-weight: bold;
     color: #181818;
     margin-bottom: 20px;
 }
 
-#banner .banner-content p{
+#banner .banner-content p {
     font-size: 18px;
     color: #757575;
     line-height: 30px;
     margin-bottom: 30px;
 }
 
-#banner .banner-image img{
+#banner .banner-image img {
     max-width: 585px;
     vertical-align: middle;
 }
 
-#about{
+#about {
     padding: 130px;
 
 }
 
-#about .about-container{
+#about .about-container {
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
@@ -141,5 +141,15 @@ nav .menu a {
 
 #about .about-container .about-info {
     display: flex;
-   justify-content: space-around
+    justify-content: space-around;
+}
+
+.about-info .info-card p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.about-info .info-card h4 {
+    font-size: 20px;
 }
