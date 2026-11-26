@@ -125,7 +125,7 @@ nav .menu a {
     vertical-align: middle;
 }
 
-#about {
+#about, #skills {
     padding: 130px;
 
 }
@@ -155,9 +155,7 @@ nav .menu a {
     font-size: 20px;
 }
 
-#skills{
-    padding-top: 130px;
-}
+
 
 #skills .skills-container{
     width: 71%;
